@@ -6,6 +6,7 @@
     "tests": "npx playwright test",
     "test:specific": "npx playwright test --grep webBasedAuthentication.spec.js",
     "test:tag": "npx playwright test --grep @smoke.js",
+    "allure-report-generator": "allure generate allure-results -o allure-report --clean",
     "report": "npx playwright show-report"
   },
   "keywords": [],
@@ -14,6 +15,10 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.47.2",
-    "@types/node": "^22.5.4"
+    "@types/node": "^22.5.4",
+    "allure-playwright": "^3.0.4"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.30.0"
   }
 }

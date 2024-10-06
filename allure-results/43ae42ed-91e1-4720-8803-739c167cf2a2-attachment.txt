@@ -1,0 +1,5 @@
+BeforeAll is executed
+BeforeEach is executed
+Test Case 3 is expected
+AfterEach is executed
+AfterAll is executed
